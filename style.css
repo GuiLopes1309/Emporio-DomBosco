@@ -94,6 +94,7 @@ header > img { /* Aqui estamos chamando nossa imagem para ser atribuídas altera
     padding: 0; /* Preenchimento zerado podendo também ser retirado para testes*/
 }
 
-.nav-links-mobile li {
-    
+.nav-links-mobile li { /*Listas da versão mobile*/
+    border-bottom: 1px solid #787272; /*Bordar inferior de cada lista*/
+    padding: 1.2rem; /*Tamanho da borda*/
 }
