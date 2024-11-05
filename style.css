@@ -107,31 +107,32 @@ header > img {  /* Aqui estamos chamando nossa imagem para ser atribuídas alter
     padding-bottom: 1.2rem; /*Tamanho da borda*/
 }
 
-
-
-
 .hamburger,
-.close {
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    display: none;
+.close { /*Estilizando os botões de abertura e fechamento*/
+    font-size: 24px; /*Tamanho do elemento*/
+    background: none; /*Removido o Background*/
+    border: none; /*BORDA NENHUMAAAAAAA*/
+    color: white; /*cor do elemento*/
+    cursor: pointer; /*Cursor Habilitado*/
+    display: none; /*Escondendo os botões*/
 }
 
 
 .close {
-    margin-top: 20px;
-    margin-right: 20px;
-    display: block;
-    align-self: end;
+    margin-top: 20px;/*Espaçamento superior do X */
+    margin-right: 20px; /*Espaçamento a direita do X*/
+    display: block; /*Formatação da Imagem em bloco*/
+    align-self: end; /*Alinhamento do botão*/
 }
 
 
-.flex {
-    display: flex;
+.flex { /*ELEMENTO USADO NO JS*/
+    display: flex; /*Tornando item flexível e visível.*/
 }
+
+
+
+
 
 
 #btn-header {   /*Nossa ID do Botão de Login */
@@ -159,9 +160,13 @@ header > img {  /* Aqui estamos chamando nossa imagem para ser atribuídas alter
 }
 
 
+
+
+
+
 .img-padaria { /* Aqui chamamos a ID que chamamos no HTML*/
     padding: 21%;  /* Cuida do Preenchimento */
-    background-image: url(imagens/padaria.webp); /* Usada para inserir imagens de fundo */
+    background-image: url(img/padaria.webp); /* Usada para inserir imagens de fundo */
     background-position: center; /* Aqui posicionamos nossa imagem para o centro */
     background-size: cover;
     background-repeat: no-repeat;
@@ -177,10 +182,15 @@ header > img {  /* Aqui estamos chamando nossa imagem para ser atribuídas alter
 
 .img-div {  /* Aqui chamamos nossa Class para alteração*/ 
     padding: 2%; /* Cuida do Preenchimento */ 
-    background-image: url(imagens/img-div.jpg); /* Usada para inserir imagens de fundo */
+    background-image: url(img/img-div.jpg); /* Usada para inserir imagens de fundo */
     background-position: center; /* Aqui posicionamos nossa imagem para o centro */ 
     background-size: auto; /* Background-Size: especifica o tamanho das imagens de fundo. Auto: Responsável por preencher totalmente a imagem. */
 }
+
+
+
+
+
 
 
 
@@ -215,6 +225,8 @@ main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
     justify-content: space-evenly; /* Tradução:justificar-conteúdo: espaço uniformemente. Alinhar os itens igualmente dentro da página */
     margin-top: 30px; /* indica o espaço acima do elemento / superior */
 }
+
+
 
 
 .clients-item { /* Aqui chamamos nossa Class que está dentro da nossa ID */
@@ -305,7 +317,7 @@ main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
 
 
 #sobre-nos { /* Chamamos aqui nossa ID */
-    background-image: url(imagens/fundo-sobre-nos.jpg); /* Usado para inserir a imagem de fundo */
+    background-image: url(img/fundo-sobre-nos.jpg); /* Usado para inserir a imagem de fundo */
     background-repeat: no-repeat; /* Aqui colocamos a função para a imagem não seja repetida */
     background-attachment: fixed; /* */
     background-position: center; /* Na posição da imagem colocamos ao centro */
@@ -334,7 +346,7 @@ main > section > h2 { /* Aqui estamos chamando nosso H2 para estilização */
 
 footer {    /* */
     padding: 6%;  /* */
-    background-image: url(imagens/img-footer.jpg);  /* */
+    background-image: url(img/img-footer.jpg);  /* */
     background-position: bottom;  /* */
     background-repeat: no-repeat;  /* */
     
@@ -544,13 +556,13 @@ footer > h2 {  /* */
             width: 4em;
             height: auto;
             }
+            
     .nav-links {
         display: none;
     }
 
     .hamburger {
         display: block;
-        
     }
 
     .mobile-menu {
