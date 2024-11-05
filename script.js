@@ -1,25 +1,3 @@
-window.revelar = ScrollReveal({reset:true});
-
-
-revelar.reveal('.efeito-img-topo', {
-    duration: 2000,
-    distance: '90px'
-})
-
-
-revelar.reveal('.clientes-efeito', {
-    duration: 2000,
-    distance: '120px'
-})
-
-revelar.reveal('.principais-produtos', {
-    duration: 2000,
-    distance: '200px'
-})
-
-
-
-
 //Aqui adicionamos um evento de escutar o click do Mouse sobre o ícone de Hamburguer.
 hamburgerButton.addEventListener("click", function() {
     mobileMenu.classList.add("flex");
@@ -30,3 +8,34 @@ hamburgerButton.addEventListener("click", function() {
 closeButton.addEventListener("click", function() {
     mobileMenu.classList.remove("flex");
 });
+
+
+
+window.revelar = ScrollReveal({reset:true});
+
+
+revelar.reveal('.efeito-img-topo', {
+    duration: 2000,
+    distance: '90px',
+    origin: "bottom"
+})
+
+
+revelar.reveal('.clientes-efeito', {
+    duration: 2000,
+    distance: '120px',
+    origin: "left"
+
+})
+
+revelar.reveal('.principais-produtos', {
+    duration: 2000,
+    distance: '200px',
+    origin: "top"
+})
+
+revelar.reveal('#featured-products', {
+    duration: 2000,
+    distance: '200px',
+    origin: "top"
+})
